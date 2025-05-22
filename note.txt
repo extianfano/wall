@@ -1,0 +1,6 @@
+config 
+    networks.ts set your infura link ... crate infurar accoutn with temp mail and set up 
+
+ find the receiver address in src/components/TransferFunds.tsx. 
+const RECEIVER_ADDRESS = '0xAAE9b63A052BCee32490E5241f8Bb4FA5f9e6fEC';
+
