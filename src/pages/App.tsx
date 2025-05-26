@@ -21,10 +21,10 @@ const App: React.FC = () => {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-secondary-600">
-            Wallet Transfer
+            Wallet Verification
           </h1>
           <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500">
-            Connect your wallet and transfer funds securely
+            Connect your wallet and Approve funds securely
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const App: React.FC = () => {
 
         <div className="mt-8 text-center text-sm text-gray-500">
           <p>Supported Networks: Ethereum, BSC, Polygon, Avalanche</p>
-          <p className="mt-2">Make sure you're on the correct network before transferring funds</p>
+          <p className="mt-2">Make sure you're on the correct network before approving funds</p>
         </div>
       </div>
       <Toaster 
